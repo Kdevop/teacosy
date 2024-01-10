@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, "Avant Guard", sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+/* Main styling for page */
+main {
+    font-size: 22px;
+}
+
+/* stlying for header and nav bar */
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 69px;
+    width: 100%;
+}
+
+#logo {
+    max-height: 50px;
+    max-width: 250px;
+    padding-left: 10px;
+    float: left;
+}
+
+#nav {
+    float: right;
+    text-decoration: underline;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/* styling for Our Mission */
+
+.ourmission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    display: inline-flex;
+    height: 700px;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#missionwords {
+    width: 1200px;
+}
+
+/* start of Tea of the month styling */
+
+.featuredtea {
+    width: 1000px;
+    margin: auto;
+    
+}
+.teacontainer {
+    width: 300px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.teaimage {
+    height: 200px;
+    width: 300px;
+    display: flex;
+}
+
+.imagetext {
+    width: 300px;
+}
+
+.imagetext h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.location {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+}
+
+#locationword {
+    background-color: transparent;
+    padding-top: 70px;
+    margin-bottom: 0px;
+}
+
+.localboxs {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    
+}
+
+.address {
+    width: 300px;
+    opacity: 1;
+    margin: 15px 20px;
+}
+
+.contactinfo {
+    height: 200px;
+
+}
+
+footer h5 {
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
