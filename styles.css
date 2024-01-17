@@ -18,6 +18,8 @@ main {
     top: 0;
     height: 69px;
     width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
 }
 
 #logo {
@@ -32,6 +34,12 @@ main {
     text-decoration: underline;
     font-size: 22px;
     margin-top: 10px;
+    display: flex;
+    margin-right: 10px;
+}
+
+#nav a {
+    margin: 5px;
 }
 
 /* styling for Our Mission */
@@ -43,7 +51,7 @@ main {
     width: 1200px;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 63px;
 }
 
 #missionwords {
